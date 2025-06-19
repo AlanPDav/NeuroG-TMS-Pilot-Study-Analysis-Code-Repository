@@ -8,16 +8,9 @@ This repository bundles the three R scripts used to process cytokine (ELISA), ne
 
 2 · File Inventory
 
-neurog‑tms/
-├── R/
-│   ├── Dep_all.R          # Statistics & plots for depression‑related measures
-│   ├── Clin_all.R         # Demographic and clinical‑score analyses (all groups)
-│   └── modified_ELISA.R   # Cytokine cleaning, EDA & group comparisons
-├── data/
-│   └── raw/               # Place de‑identified CSV/XLSX files here (not tracked)
-├── outputs/               # Figures (.png/.pdf) & tables (.xlsx/.csv) created by scripts
-├── .gitignore             # Excludes data/raw/* and large artefacts
-└── README.md              # You are here
+Dep_all.R          # Statistics & plots for depression‑related measures
+Clin_all.R         # Demographic and clinical‑score analyses (all groups)
+modified_ELISA.R   # Cytokine cleaning, EDA & group comparisons
 
 3 · Requirements
 
